@@ -26,5 +26,7 @@ Note the significant (currently complete) overlap between the two categories. Th
 ## User ID
 
 ## Matching Process 
+Markov decision process
+Bandit problem (k-armed bandit)
 Available Ingredients
 Explore / Exploit (give em somethin random occasionally)
