@@ -24,6 +24,9 @@ Additionally, the following metrics can likely be extracted from the recipes in 
 Note the significant (currently complete) overlap between the two categories. The way in which this architecture will work is to use the ChatGPT metrics in a softer manner to generate recommendations, and then apply the latter metrics in more of a filter-based system (moreso user-specified, as a filter).
 
 ## User ID
+User profiles will be constructed from an initial set of questions posed, including but not limited to:
+
+Once this is done, user profiles will be updated based on the recipes which they like and dislike. As a first starting point, since the recipe profiles are relatively low-dimensional, we can simply track liked and disliked recipes and perform a nearest neighbors search through the database
 
 ## Matching Process 
 Markov decision process
